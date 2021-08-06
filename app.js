@@ -53,6 +53,7 @@ btnId.addEventListener("click", () => {
   let rnadomAuthor = quotes[index].author;
   quote.innerHTML = randomQuote;
   author.innerHTML = rnadomAuthor;
+  quote.style.transitionDelay = ".5s";
   randomColors();
 });
 
